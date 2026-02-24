@@ -1,4 +1,4 @@
-export default function Item({name, quantity, category}){
+export default function Item({name, quantity, category}) {
     return (
         <li className="bg-white p-2 m-2 border rounded">
             <p className="text-blue-800 font-medium">{name}</p>
